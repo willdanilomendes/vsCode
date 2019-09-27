@@ -2,7 +2,7 @@
 All Settings my vsCode.
 
 # Theme's
-Palenight Theme
+Shades of Purple
 
 
 # Extensions
