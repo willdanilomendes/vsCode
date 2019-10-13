@@ -15,4 +15,5 @@ Shades of Purple
 - HTML CSS Support
 - Bracket Pair Colorizer
 - Auto Rename Tag
+- Path Autocomplete
 
