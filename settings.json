@@ -1,55 +1,57 @@
+// Place your settings in this file to overwrite the default settings
 {
-    // Controls the line height. Use 0 to compute the lineHeight from the fontSize.
-    "editor.lineHeight": 20,
-    // Enables font ligatures
-    "editor.fontLigatures": false,
-    // Controls if file decorations should use badges.
-    "explorer.decorations.badges": false,
-    // Controls if suggestions should be accepted on 'Enter' - in addition to 'Tab'. Helps to avoid ambiguity between inserting new lines or accepting suggestions. The value 'smart' means only accept a suggestion with Enter when it makes a textual change
+    "breadcrumbs.enabled": true,
     "editor.acceptSuggestionOnEnter": "on",
-    // Controls if suggestions should automatically show up when typing trigger characters
-    "editor.suggestOnTriggerCharacters": true,
-    // Enable word based suggestions
-    "editor.wordBasedSuggestions": true,
-    "path-intellisense.showHiddenFiles": true,
-    "php.suggest.basic": true,
-    "files.trimTrailingWhitespace": true,
-    "files.trimFinalNewlines": true,
-    "editor.minimap.enabled": false,
-    "workbench.startupEditor": "none",
-    "editor.renderControlCharacters": false,
-    "editor.renderIndentGuides": false,
-    "editor.renderLineHighlight": "none",
-    "editor.matchBrackets": false,
-    "explorer.openEditors.visible": 0,
-    "workbench.fontAliasing": "antialiased",
-    "editor.renderWhitespace": "all",
-    // When I accidentally hit copy without selecting anything and it overrides my clipboard - ugh.
-    // When I accidentally hit copy without selecting anything and it overrides my clipboard - ugh.
-    "editor.emptySelectionClipboard": false,
-    // I removed the hyphen "-" from this list for better multi-cursor navigation.
-    // @freekmurze suggested I remove "$" too for php variables - brilliant!
-    "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
-    // Give it to me as fast as you have it.
-    "editor.quickSuggestionsDelay": 0,
-    // In sublime I got used to almost exclusively using "cmd+shift+v" (format on paste) - now it will do it by default!
-    "editor.formatOnPaste": true,
-    // Show me whitespace in diffs, just in case some slips through, shows up in the GitHub PR, and I look like a dummy.
-    "diffEditor.ignoreTrimWhitespace": false,
-    "files.associations": {
-        ".php_cs": "php",
-        ".php_cs.dist": "php",
-        "*.php": "php" // this is super important, otherwise intelephense will not auto-index your project.
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
     },
-    "workbench.colorTheme": "Palenight Theme",
-    "workbench.iconTheme": "eq-material-theme-icons-darker",
+    "editor.renderWhitespace": "none",
+    "editor.snippetSuggestions": "top",
+    "editor.wordWrap": "on",
+    "editor.wrappingIndent": "indent",
+    "emmet.preferences": {
+        "format.forceIndentationForTags": "address,article,aside,audio,blockquote,body,canvas,div,dl,fieldset,figcaption,figure,footer,form,head,header,iframe,main,map,nav,object,ol,p,pre,section,style,table,tbody,td,tfoot,th,thead,tr,ul,video"
+    },
+    "extensions.ignoreRecommendations": true,
+    "extensions.showRecommendationsOnlyOnDemand": true,
+    "files.exclude": {
+        "**/._*": true
+    },
+    "files.insertFinalNewline": true,
+    // Remove the following to enable Git
+    "git.enabled": false,
+    "html.format.endWithNewline": true,
+    "html.format.extraLiners": "body",
+    "html.format.indentInnerHtml": true,
+    "html.format.unformatted": "b,em,i,span,strong,wbr",
+    "html.format.wrapLineLength": 0,
+    "liveSassCompile.settings.autoprefix": null,
+    "liveSassCompile.settings.generateMap": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.port": 0,
+    "path-autocomplete.excludedItems": {
+        "**/{.DS_Store,.git,.gitignore,node_modules}": {
+            "when": "**"
+        }
+    },
+    "path-autocomplete.extensionOnImport": true,
+    "workbench.colorCustomizations": {
+        "editorIndentGuide.activeBackground": "#FFA500"
+    },
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
     "liveSassCompile.settings.formats": [
         // You can add more
         {
             "format": "compressed",
-            "extensionName": ".min.css",
-            "savePath": "src/css"
+            "extensionName": ".css",
+            "savePath": "assets/css"
         }
     ],
-    "editor.wordWrap": "on",
 }
