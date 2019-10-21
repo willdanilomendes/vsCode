@@ -2,17 +2,14 @@
 All Settings my vsCode.
 
 # Theme's
-Shades of Purple
+One Dark Pro
+https://marketplace.visualstudio.com/items?itemName=thegeoffstevens.best-dark-themes-pack
 
 
 # Extensions
 - Beautify
-- Class autocomplete for HTML
 - IntelliSense for CSS, SCSS class names in HTML, Slim and SCSS
-- Path Intellisense
 - vscode-icons
-- Prettier - Code formatter
-- HTML CSS Support
 - Bracket Pair Colorizer
 - Auto Rename Tag
 - Path Autocomplete
