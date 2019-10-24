@@ -13,4 +13,6 @@ https://marketplace.visualstudio.com/items?itemName=thegeoffstevens.best-dark-th
 - Bracket Pair Colorizer
 - Auto Rename Tag
 - Path Autocomplete
+- Highlight Matching Tag
+
 
