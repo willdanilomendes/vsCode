@@ -1,35 +1,4 @@
 {
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.iconTheme": "vscode-icons",
-  "workbench.colorTheme": "Andromeda",
-  "editor.tabSize": 2,
-  "editor.wordWrap": "on",
-  "editor.minimap.enabled": false,
-  "files.insertFinalNewline": true,
-  "editor.acceptSuggestionOnEnter": "on",
-  "editor.detectIndentation": false,
-  "editor.multiCursorModifier": "ctrlCmd",
-  "editor.quickSuggestions": {
-    "other": true,
-    "comments": true,
-    "strings": true
-  },
-  // Remove the following to enable Git
-  "git.enabled": false,
-  "html.format.endWithNewline": true,
-  "html.format.extraLiners": "body",
-  "html.format.indentInnerHtml": true,
-  "html.format.unformatted": "b,em,i,span,strong,wbr",
-  "html.format.wrapLineLength": 0,
-  "liveSassCompile.settings.autoprefix": null,
-  "liveSassCompile.settings.generateMap": false,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "liveServer.settings.port": 0,
-  "path-autocomplete.excludedItems": {
-    "**/{.DS_Store,.git,.gitignore,node_modules}": {
-      "when": "**"
-    }
-  },
   "path-autocomplete.extensionOnImport": true,
   "liveSassCompile.settings.formats": [
     // You can add more
@@ -40,8 +9,35 @@
     }
   ],
   "vsicons.dontShowNewVersionMessage": true,
+  "editor.fontFamily": "IBM Plex Mono, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 12,
+  "editor.lineHeight": 25,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "window.zoomLevel": 0,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.activityBar.visible": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "explorer.confirmDragAndDrop": false,
+  "diffEditor.renderSideBySide": true,
   "editor.formatOnSave": true,
-  "[php]": {
-    "editor.formatOnSave": true
+  "html.autoClosingTags": false,
+  "editor.autoIndent": false,
+  "editor.colorDecorators": false,
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingQuotes": "always",
+  "files.associations": {
+    "*.js": "javascriptreact"
   },
+  "editor.minimap.renderCharacters": false,
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "color-highlight.markerType": "dot-before",
+  "editor.renderWhitespace": "selection",
+  "workbench.statusBar.visible": true,
+  "explorer.sortOrder": "type",
+  "window.title": "${activeEditorMedium}${separator}${rootName}",
+  "workbench.colorTheme": "Origamid Next",
+  "workbench.iconTheme": "origamid-next-icons",
 }
