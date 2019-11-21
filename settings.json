@@ -11,7 +11,7 @@
   "vsicons.dontShowNewVersionMessage": true,
   "editor.fontFamily": "IBM Plex Mono, Monaco, 'Courier New', monospace",
   "editor.fontSize": 12,
-  "editor.lineHeight": 25,
+  "editor.lineHeight": 20,
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
   "window.zoomLevel": 0,
