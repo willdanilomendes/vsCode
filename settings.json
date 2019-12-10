@@ -1,43 +1,41 @@
 {
-  "path-autocomplete.extensionOnImport": true,
-  "liveSassCompile.settings.formats": [
-    // You can add more
-    {
-      "format": "compressed",
-      "extensionName": ".min.css",
-      "savePath": "src/css"
-    }
-  ],
-  "vsicons.dontShowNewVersionMessage": true,
-  "editor.fontFamily": "IBM Plex Mono, Monaco, 'Courier New', monospace",
-  "editor.fontSize": 12,
-  "editor.lineHeight": 20,
-  "editor.tabSize": 2,
-  "editor.wordWrap": "on",
-  "window.zoomLevel": 0,
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.activityBar.visible": true,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "liveServer.settings.donotVerifyTags": true,
-  "explorer.confirmDragAndDrop": false,
-  "diffEditor.renderSideBySide": true,
-  "editor.formatOnSave": true,
-  "html.autoClosingTags": false,
-  "editor.autoIndent": false,
-  "editor.colorDecorators": false,
-  "editor.autoClosingBrackets": "always",
-  "editor.autoClosingQuotes": "always",
-  "files.associations": {
-    "*.js": "javascriptreact"
-  },
-  "editor.minimap.renderCharacters": false,
-  "telemetry.enableCrashReporter": false,
-  "telemetry.enableTelemetry": false,
-  "color-highlight.markerType": "dot-before",
-  "editor.renderWhitespace": "selection",
-  "workbench.statusBar.visible": true,
-  "explorer.sortOrder": "type",
-  "window.title": "${activeEditorMedium}${separator}${rootName}",
-  "workbench.colorTheme": "Origamid Next",
-  "workbench.iconTheme": "origamid-next-icons",
+    "path-autocomplete.extensionOnImport": true,
+    "liveSassCompile.settings.formats": [
+        // You can add more
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "src/css"
+        }
+    ],
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "Andromeda",
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "on",
+    "window.zoomLevel": 0,
+    "beautify.language": {
+        "js": {
+            "type": [
+                "javascript",
+                "json"
+            ],
+            "filename": [
+                ".jshintrc",
+                ".jsbeautifyrc"
+            ]
+            // "ext": ["js", "json"]
+            // ^^ to set extensions to be beautified using the javascript beautifier
+        },
+        "css": [
+            "css",
+            "scss"
+        ],
+        "html": [
+            "htm",
+            "html",
+            "php"
+        ]
+        // ^^ providing just an array sets the VS Code file type
+    },
+    "editor.tabSize": 2
 }
