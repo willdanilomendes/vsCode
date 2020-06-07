@@ -1,4 +1,5 @@
 {
+    "php.validate.executablePath": "C:/xampp/php/php.exe",
     "path-autocomplete.extensionOnImport": true,
     "liveSassCompile.settings.formats": [
         // You can add more
