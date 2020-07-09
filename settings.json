@@ -1,42 +1,79 @@
 {
-    "php.validate.executablePath": "C:/xampp/php/php.exe",
-    "path-autocomplete.extensionOnImport": true,
-    "liveSassCompile.settings.formats": [
-        // You can add more
-        {
-            "format": "compressed",
-            "extensionName": ".min.css",
-            "savePath": "src/css"
+  "editor.fontSize": 13,
+  "editor.lineHeight": 20,
+  "editor.wordWrap": "on",
+  "window.zoomLevel": 0,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.activityBar.visible": true,
+  "explorer.confirmDragAndDrop": false,
+  "diffEditor.renderSideBySide": true,
+  "editor.formatOnSave": true,
+  "html.autoClosingTags": false,
+  "editor.colorDecorators": false,
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingQuotes": "always",
+  "files.associations": {
+  
+    "*.js": "javascriptreact"
+  },
+  "editor.minimap.renderCharacters": false,
+  "breadcrumbs.enabled": false,
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "color-highlight.markerType": "dot-before",
+  "editor.renderWhitespace": "selection",
+  "workbench.statusBar.visible": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.sortOrder": "type",
+  "window.title": "${activeEditorMedium}${separator}${rootName}",
+  "workbench.colorTheme": "Origamid Next",
+  "highlight-matching-tag.styles": {
+    "opening": {
+      "left": {
+        "custom": {
+          "borderWidth": "0 0 0 1px",
+          "borderStyle": "dotted",
+          "borderColor": "white",
+          "borderRadius": "5px",
+          "overviewRulerColor": "yellow"
         }
-    ],
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.colorTheme": "Andromeda",
-    "editor.formatOnSave": true,
-    "editor.wordWrap": "on",
-    "window.zoomLevel": 0,
-    "beautify.language": {
-        "js": {
-            "type": [
-                "javascript",
-                "json"
-            ],
-            "filename": [
-                ".jshintrc",
-                ".jsbeautifyrc"
-            ]
-            // "ext": ["js", "json"]
-            // ^^ to set extensions to be beautified using the javascript beautifier
-        },
-        "css": [
-            "css",
-            "scss"
-        ],
-        "html": [
-            "htm",
-            "html",
-            "php"
-        ]
-        // ^^ providing just an array sets the VS Code file type
+      },
+      "right": {
+        "custom": {
+          "borderWidth": "0 1px 0 0",
+          "borderStyle": "dotted",
+          "borderColor": "yellow",
+          "borderRadius": "5px",
+          "overviewRulerColor": "yellow"
+        }
+      }
+    }
+  },
+  "beautify.language": {
+    "js": {
+      "type": ["javascript", "json"],
+      "filename": [".jshintrc", ".jsbeautifyrc"]
+      // "ext": ["js", "json"]
+      // ^^ to set extensions to be beautified using the javascript beautifier
     },
-    "editor.tabSize": 2
+    "css": ["css", "scss"],
+    "html": ["htm", "html", "php"]
+    // ^^ providing just an array sets the VS Code file type
+  },
+  "editor.tabSize": 2,
+  "git.ignoreMissingGitWarning": true,
+  "php.validate.executablePath": "d:/Desenvolvimento/xampp/php/php.exe",
+  "liveSassCompile.settings.formats": [
+    // You can add more
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "src/css"
+    }
+  ]
 }
