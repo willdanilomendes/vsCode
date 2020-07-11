@@ -4,6 +4,7 @@ All Settings my vsCode.
 # Theme's
 https://marketplace.visualstudio.com/items?itemName=thegeoffstevens.best-dark-themes-pack
 https://marketplace.visualstudio.com/items?itemName=origamid.origamid-next&fbclid=IwAR2J-B3ZGj-OEO8Y5pM9IHqAhMGGZZiX3kJQ9EyneHoWGTRgkZ7p4cQEh3U
+https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode
 
 
 # Extensions
