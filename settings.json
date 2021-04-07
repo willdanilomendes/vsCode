@@ -1,79 +1,23 @@
 {
-  "editor.fontSize": 13,
-  "editor.lineHeight": 20,
-  "editor.wordWrap": "on",
-  "window.zoomLevel": 0,
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.activityBar.visible": true,
-  "explorer.confirmDragAndDrop": false,
-  "diffEditor.renderSideBySide": true,
-  "editor.formatOnSave": true,
-  "html.autoClosingTags": false,
-  "editor.colorDecorators": false,
-  "editor.autoClosingBrackets": "always",
-  "editor.autoClosingQuotes": "always",
-  "files.associations": {
-  
-    "*.js": "javascriptreact"
-  },
-  "editor.minimap.renderCharacters": false,
-  "breadcrumbs.enabled": false,
-  "telemetry.enableCrashReporter": false,
-  "telemetry.enableTelemetry": false,
-  "color-highlight.markerType": "dot-before",
-  "editor.renderWhitespace": "selection",
-  "workbench.statusBar.visible": true,
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "explorer.sortOrder": "type",
-  "window.title": "${activeEditorMedium}${separator}${rootName}",
-  "workbench.colorTheme": "Origamid Next",
-  "highlight-matching-tag.styles": {
-    "opening": {
-      "left": {
-        "custom": {
-          "borderWidth": "0 0 0 1px",
-          "borderStyle": "dotted",
-          "borderColor": "white",
-          "borderRadius": "5px",
-          "overviewRulerColor": "yellow"
-        }
-      },
-      "right": {
-        "custom": {
-          "borderWidth": "0 1px 0 0",
-          "borderStyle": "dotted",
-          "borderColor": "yellow",
-          "borderRadius": "5px",
-          "overviewRulerColor": "yellow"
-        }
-      }
-    }
-  },
-  "beautify.language": {
-    "js": {
-      "type": ["javascript", "json"],
-      "filename": [".jshintrc", ".jsbeautifyrc"]
-      // "ext": ["js", "json"]
-      // ^^ to set extensions to be beautified using the javascript beautifier
-    },
-    "css": ["css", "scss"],
-    "html": ["htm", "html", "php"]
-    // ^^ providing just an array sets the VS Code file type
-  },
-  "editor.tabSize": 2,
-  "git.ignoreMissingGitWarning": true,
-  "php.validate.executablePath": "d:/Desenvolvimento/xampp/php/php.exe",
-  "liveSassCompile.settings.formats": [
-    // You can add more
-    {
-      "format": "compressed",
-      "extensionName": ".min.css",
-      "savePath": "src/css"
-    }
-  ]
+  "prettier.eslintIntegration": true,
+  // Configura tamanho e família da fonte
+  "editor.fontSize":16,
+  "editor.lineHeight":24,
+  "editor.fontFamily":"Fira Code",
+  "editor.fontLigatures":true,
+
+  // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
+  "editor.rulers": [
+    80,
+    120
+  ],
+
+  // Aplica um sinal visual na esquerda da linha selecionada
+  "editor.renderLineHighlight":"gutter",
+
+  // Aumenta a fonte do terminal
+  "terminal.integrated.fontSize":14,
+
+  // Define o tema dos ícones na sidebar
+  "workbench.iconTheme":"material-icon-theme"
 }
