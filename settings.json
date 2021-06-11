@@ -1,23 +1,89 @@
 {
-  "prettier.eslintIntegration": true,
-  // Configura tamanho e família da fonte
-  "editor.fontSize":16,
-  "editor.lineHeight":24,
-  "editor.fontFamily":"Fira Code",
-  "editor.fontLigatures":true,
+    "prettier.eslintIntegration": true,
+    // Configura tamanho e família da fonte
+    "editor.fontSize":14,
+    "editor.lineHeight":24,
+    "editor.fontLigatures":true,
+  
+    // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
+    "editor.rulers": [
 
-  // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
-  "editor.rulers": [
-    80,
-    120
-  ],
-
-  // Aplica um sinal visual na esquerda da linha selecionada
-  "editor.renderLineHighlight":"gutter",
-
-  // Aumenta a fonte do terminal
-  "terminal.integrated.fontSize":14,
-
-  // Define o tema dos ícones na sidebar
-  "workbench.iconTheme":"material-icon-theme"
+      80,
+      120
+    ],
+  
+    // Aplica um sinal visual na esquerda da linha selecionada
+    "editor.renderLineHighlight":"gutter",
+  
+    // Aumenta a fonte do terminal
+    "terminal.integrated.fontSize":14,
+  
+    // Define o tema dos ícones na sidebar
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Omni",
+    "workbench.startupEditor": "none",
+    "editor.wordWrap": "on",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.fixAll": true
+    },
+    "bracket-pair-colorizer-2.colors": [
+      "#8BE9FD",
+      "#50FA7B",
+      "#FFB86C",
+      "#FF79C6",
+      "#BD93F9",
+      "#F1FA8C",
+    ],
+    "bracket-pair-colorizer-2.colorMode": "Consecutive",
+    "bracket-pair-colorizer-2.forceUniqueOpeningColor": false,
+    "bracket-pair-colorizer-2.forceIterationColorCycle": false,
+    "bracket-pair-colorizer-2.showBracketsInGutter": true,
+    "bracket-pair-colorizer-2.showBracketsInRuler": true,
+    "bracket-pair-colorizer-2.showVerticalScopeLine": false,
+    "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
+    "bracket-pair-colorizer-2.unmatchedScopeColor": "#FF5555",
+    "colorize.hide_current_line_decorations": false,
+"colorize.include": [
+  ".tsx",
+  ".jsx",
+  ".ts",
+  ".js"
+],
+"colorize.languages": [
+  "typescriptreact",
+  "javascriptreact",
+  "javascript",
+  "typescript",
+  "css",
+  "sass",
+  "scss",
+  "less",
+  "pcss",
+  "sss",
+  "stylus",
+  "xml",
+  "svg",
+  "json",
+  "jsonc",
+  "yaml"
+],
+"colorize.colorized_colors": [
+  "HEXA",
+  "RGB",
+  "HSL"
+],
+"colorize.enable_search_variables": false,
+"liveServer.settings.donotVerifyTags": true,
+"liveSassCompile.settings.formats":[
+  {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "~../css"
+  }
+],
+"[html]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"terminal.integrated.tabs.enabled": true
 }
